@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F31466F01C745F6500F39E14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F31466EF1C745F6500F39E14 /* main.m */; };
+		F31466F31C745F6500F39E14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F31466F21C745F6500F39E14 /* AppDelegate.m */; };
+		F31466F61C745F6500F39E14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31466F51C745F6500F39E14 /* ViewController.m */; };
+		F31466F91C745F6500F39E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31466F71C745F6500F39E14 /* Main.storyboard */; };
+		F31466FB1C745F6500F39E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31466FA1C745F6500F39E14 /* Assets.xcassets */; };
+		F31466FE1C745F6500F39E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31466FC1C745F6500F39E14 /* LaunchScreen.storyboard */; };
+		F31467091C745F6500F39E14 /* JMCircleMagicButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F31467081C745F6500F39E14 /* JMCircleMagicButtonTests.m */; };
+		F31467141C745F6500F39E14 /* JMCircleMagicButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F31467131C745F6500F39E14 /* JMCircleMagicButtonUITests.m */; };
+		F314672D1C75695900F39E14 /* JMMagicCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F314672A1C75695900F39E14 /* JMMagicCircleButton.m */; };
+		F314672E1C75695900F39E14 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = F314672C1C75695900F39E14 /* MMMaterialDesignSpinner.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F31467051C745F6500F39E14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F31466E31C745F6500F39E14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F31466EA1C745F6500F39E14;
+			remoteInfo = JMCircleMagicButton;
+		};
+		F31467101C745F6500F39E14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F31466E31C745F6500F39E14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F31466EA1C745F6500F39E14;
+			remoteInfo = JMCircleMagicButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F31466EB1C745F6500F39E14 /* JMCircleMagicButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMCircleMagicButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31466EF1C745F6500F39E14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F31466F11C745F6500F39E14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F31466F21C745F6500F39E14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F31466F41C745F6500F39E14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F31466F51C745F6500F39E14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F31466F81C745F6500F39E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F31466FA1C745F6500F39E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F31466FD1C745F6500F39E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F31466FF1C745F6500F39E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31467041C745F6500F39E14 /* JMCircleMagicButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMCircleMagicButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31467081C745F6500F39E14 /* JMCircleMagicButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMCircleMagicButtonTests.m; sourceTree = "<group>"; };
+		F314670A1C745F6500F39E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F314670F1C745F6500F39E14 /* JMCircleMagicButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMCircleMagicButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31467131C745F6500F39E14 /* JMCircleMagicButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMCircleMagicButtonUITests.m; sourceTree = "<group>"; };
+		F31467151C745F6500F39E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31467291C75695900F39E14 /* JMMagicCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMagicCircleButton.h; sourceTree = "<group>"; };
+		F314672A1C75695900F39E14 /* JMMagicCircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMagicCircleButton.m; sourceTree = "<group>"; };
+		F314672B1C75695900F39E14 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		F314672C1C75695900F39E14 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F31466E81C745F6500F39E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31467011C745F6500F39E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F314670C1C745F6500F39E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F31466E21C745F6500F39E14 = {
+			isa = PBXGroup;
+			children = (
+				F31466ED1C745F6500F39E14 /* JMCircleMagicButton */,
+				F31467071C745F6500F39E14 /* JMCircleMagicButtonTests */,
+				F31467121C745F6500F39E14 /* JMCircleMagicButtonUITests */,
+				F31466EC1C745F6500F39E14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F31466EC1C745F6500F39E14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F31466EB1C745F6500F39E14 /* JMCircleMagicButton.app */,
+				F31467041C745F6500F39E14 /* JMCircleMagicButtonTests.xctest */,
+				F314670F1C745F6500F39E14 /* JMCircleMagicButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F31466ED1C745F6500F39E14 /* JMCircleMagicButton */ = {
+			isa = PBXGroup;
+			children = (
+				F31467281C75695900F39E14 /* JMMagicCircleBtn */,
+				F31466F11C745F6500F39E14 /* AppDelegate.h */,
+				F31466F21C745F6500F39E14 /* AppDelegate.m */,
+				F31466F41C745F6500F39E14 /* ViewController.h */,
+				F31466F51C745F6500F39E14 /* ViewController.m */,
+				F31466F71C745F6500F39E14 /* Main.storyboard */,
+				F31466FA1C745F6500F39E14 /* Assets.xcassets */,
+				F31466FC1C745F6500F39E14 /* LaunchScreen.storyboard */,
+				F31466FF1C745F6500F39E14 /* Info.plist */,
+				F31466EE1C745F6500F39E14 /* Supporting Files */,
+			);
+			path = JMCircleMagicButton;
+			sourceTree = "<group>";
+		};
+		F31466EE1C745F6500F39E14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F31466EF1C745F6500F39E14 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F31467071C745F6500F39E14 /* JMCircleMagicButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F31467081C745F6500F39E14 /* JMCircleMagicButtonTests.m */,
+				F314670A1C745F6500F39E14 /* Info.plist */,
+			);
+			path = JMCircleMagicButtonTests;
+			sourceTree = "<group>";
+		};
+		F31467121C745F6500F39E14 /* JMCircleMagicButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F31467131C745F6500F39E14 /* JMCircleMagicButtonUITests.m */,
+				F31467151C745F6500F39E14 /* Info.plist */,
+			);
+			path = JMCircleMagicButtonUITests;
+			sourceTree = "<group>";
+		};
+		F31467281C75695900F39E14 /* JMMagicCircleBtn */ = {
+			isa = PBXGroup;
+			children = (
+				F31467291C75695900F39E14 /* JMMagicCircleButton.h */,
+				F314672A1C75695900F39E14 /* JMMagicCircleButton.m */,
+				F314672B1C75695900F39E14 /* MMMaterialDesignSpinner.h */,
+				F314672C1C75695900F39E14 /* MMMaterialDesignSpinner.m */,
+			);
+			path = JMMagicCircleBtn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F31466EA1C745F6500F39E14 /* JMCircleMagicButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31467181C745F6500F39E14 /* Build configuration list for PBXNativeTarget "JMCircleMagicButton" */;
+			buildPhases = (
+				F31466E71C745F6500F39E14 /* Sources */,
+				F31466E81C745F6500F39E14 /* Frameworks */,
+				F31466E91C745F6500F39E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMCircleMagicButton;
+			productName = JMCircleMagicButton;
+			productReference = F31466EB1C745F6500F39E14 /* JMCircleMagicButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F31467031C745F6500F39E14 /* JMCircleMagicButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F314671B1C745F6500F39E14 /* Build configuration list for PBXNativeTarget "JMCircleMagicButtonTests" */;
+			buildPhases = (
+				F31467001C745F6500F39E14 /* Sources */,
+				F31467011C745F6500F39E14 /* Frameworks */,
+				F31467021C745F6500F39E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F31467061C745F6500F39E14 /* PBXTargetDependency */,
+			);
+			name = JMCircleMagicButtonTests;
+			productName = JMCircleMagicButtonTests;
+			productReference = F31467041C745F6500F39E14 /* JMCircleMagicButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F314670E1C745F6500F39E14 /* JMCircleMagicButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F314671E1C745F6500F39E14 /* Build configuration list for PBXNativeTarget "JMCircleMagicButtonUITests" */;
+			buildPhases = (
+				F314670B1C745F6500F39E14 /* Sources */,
+				F314670C1C745F6500F39E14 /* Frameworks */,
+				F314670D1C745F6500F39E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F31467111C745F6500F39E14 /* PBXTargetDependency */,
+			);
+			name = JMCircleMagicButtonUITests;
+			productName = JMCircleMagicButtonUITests;
+			productReference = F314670F1C745F6500F39E14 /* JMCircleMagicButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F31466E31C745F6500F39E14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TomorJM;
+				TargetAttributes = {
+					F31466EA1C745F6500F39E14 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = HR25JTF3LT;
+					};
+					F31467031C745F6500F39E14 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = HR25JTF3LT;
+						TestTargetID = F31466EA1C745F6500F39E14;
+					};
+					F314670E1C745F6500F39E14 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = HR25JTF3LT;
+						TestTargetID = F31466EA1C745F6500F39E14;
+					};
+				};
+			};
+			buildConfigurationList = F31466E61C745F6500F39E14 /* Build configuration list for PBXProject "JMCircleMagicButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F31466E21C745F6500F39E14;
+			productRefGroup = F31466EC1C745F6500F39E14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F31466EA1C745F6500F39E14 /* JMCircleMagicButton */,
+				F31467031C745F6500F39E14 /* JMCircleMagicButtonTests */,
+				F314670E1C745F6500F39E14 /* JMCircleMagicButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F31466E91C745F6500F39E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31466FE1C745F6500F39E14 /* LaunchScreen.storyboard in Resources */,
+				F31466FB1C745F6500F39E14 /* Assets.xcassets in Resources */,
+				F31466F91C745F6500F39E14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31467021C745F6500F39E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F314670D1C745F6500F39E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F31466E71C745F6500F39E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F314672E1C75695900F39E14 /* MMMaterialDesignSpinner.m in Sources */,
+				F31466F61C745F6500F39E14 /* ViewController.m in Sources */,
+				F31466F31C745F6500F39E14 /* AppDelegate.m in Sources */,
+				F314672D1C75695900F39E14 /* JMMagicCircleButton.m in Sources */,
+				F31466F01C745F6500F39E14 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31467001C745F6500F39E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31467091C745F6500F39E14 /* JMCircleMagicButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F314670B1C745F6500F39E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31467141C745F6500F39E14 /* JMCircleMagicButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F31467061C745F6500F39E14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F31466EA1C745F6500F39E14 /* JMCircleMagicButton */;
+			targetProxy = F31467051C745F6500F39E14 /* PBXContainerItemProxy */;
+		};
+		F31467111C745F6500F39E14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F31466EA1C745F6500F39E14 /* JMCircleMagicButton */;
+			targetProxy = F31467101C745F6500F39E14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F31466F71C745F6500F39E14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F31466F81C745F6500F39E14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F31466FC1C745F6500F39E14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F31466FD1C745F6500F39E14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F31467161C745F6500F39E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F31467171C745F6500F39E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F31467191C745F6500F39E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JMCircleMagicButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomorrow.JMCircleMagicButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F314671A1C745F6500F39E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JMCircleMagicButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomorrow.JMCircleMagicButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F314671C1C745F6500F39E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JMCircleMagicButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomorrow.JMCircleMagicButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMCircleMagicButton.app/JMCircleMagicButton";
+			};
+			name = Debug;
+		};
+		F314671D1C745F6500F39E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JMCircleMagicButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomorrow.JMCircleMagicButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMCircleMagicButton.app/JMCircleMagicButton";
+			};
+			name = Release;
+		};
+		F314671F1C745F6500F39E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JMCircleMagicButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomorrow.JMCircleMagicButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JMCircleMagicButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F31467201C745F6500F39E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JMCircleMagicButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomorrow.JMCircleMagicButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JMCircleMagicButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F31466E61C745F6500F39E14 /* Build configuration list for PBXProject "JMCircleMagicButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31467161C745F6500F39E14 /* Debug */,
+				F31467171C745F6500F39E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31467181C745F6500F39E14 /* Build configuration list for PBXNativeTarget "JMCircleMagicButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31467191C745F6500F39E14 /* Debug */,
+				F314671A1C745F6500F39E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F314671B1C745F6500F39E14 /* Build configuration list for PBXNativeTarget "JMCircleMagicButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F314671C1C745F6500F39E14 /* Debug */,
+				F314671D1C745F6500F39E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F314671E1C745F6500F39E14 /* Build configuration list for PBXNativeTarget "JMCircleMagicButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F314671F1C745F6500F39E14 /* Debug */,
+				F31467201C745F6500F39E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F31466E31C745F6500F39E14 /* Project object */;
+}

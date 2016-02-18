@@ -2,7 +2,9 @@
 a magic loading button
 
 
-[效果](https://github.com/tormorOoO/JMMagicCircleBtn/blob/master/JMCircleMagicButton/magicCircle.gif)
+
+
+![](https://github.com/tormorOoO/JMMagicCircleBtn/blob/master/JMCircleMagicButton/magicCircle.gif)
 
 
 ####使用示例:
@@ -21,3 +23,5 @@ JMMagicCircleButton *btn = [[JMMagicCircleButton alloc] initWithFrame:CGRectMake
 [btn.frontShowBtn setTitle:@"登录" forState:UIControlStateNormal];
 
 ```
+
+####动画思路点击[这里](http://www.jianshu.com/p/716b42c31f5c)
